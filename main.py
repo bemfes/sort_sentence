@@ -1,4 +1,5 @@
 def sort_sentence(sentence):
+    sentence=sentence.split()
     count = 0
     for i in sentence[0]:
         if i.isupper() and count < 1:
